@@ -14,7 +14,7 @@ const Timer2 = () => {
     }
     else if (time === 0){
      clearInterval(interval)
-     alert("times ups")
+     alert("times up")
     }
 
     return ()=> clearInterval(interval)
